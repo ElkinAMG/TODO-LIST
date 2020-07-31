@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+   min-height: 100%;
+}
+
+body {
+    position: relative;
+    background-image: linear-gradient(to left,  #ff8c66, #ffd966);
+    background-repeat: no-repeat;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #FFFFFF;
+    display: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+main > h1,
+main > form {
+    font-size: 60px;
+    padding: 10px;
+}
+
+.add-task {
+    width: 50%;
+    padding: 14px;
+    padding-right: 50px;
+    font-size: 14px;
+    font-family: sans-serif;
+    border: 2px #FFFFFF solid;
+    border-radius: 10px;
+    text-align: center;
+    transition: border .4s;
+}
+
+.add {
+    background: none;
+    border: none;
+    color: #ff3333;
+    position: relative;
+    font-size: .72em;
+    right: 62px;
+    top: 10.1px;
+    transition: all .5s ease;
+}
+
+.add:hover {
+    color: #ff6666;
+    cursor: pointer;
+}
+
+.tasks {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.task {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px #4d4dff solid;
+    width: 35%;
+    color: #6666ff;
+    font-family: sans-serif;
+    font-size: 20px;
+    animation: added 1s;
+    word-wrap: break-word;
+}
+
+@keyframes added {
+    from {transform: translateX(-50%);}
+}
+
+.trash {
+    border: none;
+    background: none;
+    color: #ff3333;
+    font-size: 60px;
+}
+
+.spacer {
+    padding: 5px;
+}
