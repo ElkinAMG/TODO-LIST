@@ -94,11 +94,11 @@ main > form {
 
 @keyframes delete {
     to {
-	transform: translateY(3em) rotate(15deg);
+	transform: translateY(3em) rotate(20deg);
 	opacity: 0;
     }
 }
 
 .spacer {
-    padding: 5px;
+    padding: 3px;
 }
