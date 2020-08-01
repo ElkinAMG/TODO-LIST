@@ -82,11 +82,21 @@ main > form {
     from {transform: translateX(-50%);}
 }
 
-.trash {
-    border: none;
-    background: none;
-    color: #ff3333;
-    font-size: 60px;
+.task:hover {
+    cursor: pointer;
+    text-decoration: line-through;
+    opacity: .7;
+}
+
+.deleted {
+    animation: delete .3s;
+}
+
+@keyframes delete {
+    to {
+	transform: translateY(3em) rotate(15deg);
+	opacity: 0;
+    }
 }
 
 .spacer {
