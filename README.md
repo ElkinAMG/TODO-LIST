@@ -8,6 +8,6 @@ This is a TODO using Javascript Vanilla. It's an application made only using kno
 - Remove a task
 - Saving of task in LocalStorage
 
-(Test it here!)[https://elkinamg.github.io/TODO-LIST/]
+[Test it here!](https://elkinamg.github.io/TODO-LIST/)
 
 Not a big application but it's just for learning :)
